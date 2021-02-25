@@ -1,6 +1,5 @@
 import org.testng.annotations.Test;
 
-import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
 public class RestSample {
 
@@ -22,7 +21,10 @@ public class RestSample {
 	}
 	
 
-
+	public void gitsample(String get) {
+		this.get = get;
+	}
+	
 
 
 @Test
